@@ -1,0 +1,7 @@
+#include <bits/stdc++.h> 
+using namespace std;
+int main()
+{
+    long n, s, i;
+    cin >> n; for(i = 1; s + i < n; i++){s += i;} cout << i;
+}
